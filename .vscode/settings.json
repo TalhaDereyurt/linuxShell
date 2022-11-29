@@ -1,7 +1,6 @@
 {
     "files.associations": {
-        "unistd.h": "c",
         "fcntl.h": "c",
-        "signal.h": "c"
+        "errno.h": "c"
     }
 }
