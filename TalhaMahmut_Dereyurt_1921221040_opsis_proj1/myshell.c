@@ -124,7 +124,7 @@ int main()
             strcat(myInput," ");
             strcat(myInput,valueArray[5]);
             myExecx(myInput);
-        }else if(valueArray == 3 && strcmp(valueArray[0], "writef") == 0 && strcmp(valueArray[1], "-f") == 0){
+        }else if(valueSize == 3 && strcmp(valueArray[0], "writef") == 0 && strcmp(valueArray[1], "-f") == 0){
             char myFile[30];
             strcpy(myFile,valueArray[2]);
             myWrite(myFile);
