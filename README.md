@@ -1,2 +1,2 @@
 # opSisProject
-op project
+Operating Systems Project
